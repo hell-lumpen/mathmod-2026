@@ -18,15 +18,15 @@ export const Hero: React.FC = () => {
           
           <div className="inline-block animate-bounce mt-4 md:mt-0">
             <div className="font-display font-black uppercase text-base sm:text-xl md:text-2xl px-4 py-2 bg-brand-pink border-4 border-black shadow-neo -rotate-2 inline-block">
-              Набор на Весну 2026 открыт!
+              Набор на Весну 2026 скоро будет открыт!
             </div>
           </div>
           
-          <h1 className="font-display font-black text-[2.75rem] sm:text-6xl md:text-8xl lg:text-[9rem] leading-[1] md:leading-[0.9] uppercase tracking-tighter text-black mix-blend-multiply break-words">
+          <h1 className="font-display font-black text-[2.2rem] sm:text-6xl md:text-8xl lg:text-[9rem] leading-[1] md:leading-[0.9] uppercase tracking-tighter text-black mix-blend-multiply break-words">
             VI Школа ИТ <br className="hidden sm:block"/>
             <span className="relative inline-block text-white mt-2 sm:mt-0">
               <span className="absolute inset-0 bg-brand-blue border-4 border-black shadow-neo rotate-1 transform-gpu"></span>
-              <span className="relative z-10 px-3 py-1 sm:px-4 sm:py-2 block">И МАТ Моделирования</span>
+              <span className="relative z-10 px-3 py-1 sm:px-4 sm:py-2 block">и математического моделирования</span>
             </span>
           </h1>
           
@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 pt-6 font-display font-bold text-base sm:text-lg md:text-xl w-full sm:w-auto">
             <div className="flex items-center justify-center gap-3 bg-brand-green border-4 border-black px-6 py-3 shadow-neo hover:-translate-y-1 transition-transform w-full sm:w-auto">
               <CalendarIcon className="w-6 h-6 shrink-0" />
-              <span>Весна 2026</span>
+              <span>13 мая - 22 мая 2026</span>
             </div>
             <div className="flex items-center justify-center gap-3 bg-brand-yellow border-4 border-black px-6 py-3 shadow-neo hover:-translate-y-1 transition-transform w-full sm:w-auto">
               <MapPinIcon className="w-6 h-6 shrink-0" />
