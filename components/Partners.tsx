@@ -75,7 +75,7 @@ export const Partners: React.FC = () => {
         </div>
 
         <div className="text-center m-24">
-          <div className="inline-block bg-black text-white border-4 border-black p-6 md:p-8 shadow-[8px_8px_0px_0px_rgba(255,230,0,1)] max-w-3xl mx-auto transform hover:translate-x-1 hover:-translate-y-1 transition-transform">
+          <div className="inline-block bg-black text-white border-4 border-black p-6 md:p-8 shadow-[8px_8px_0px_0px_rgba(255,230,0,1)] mx-auto transform hover:translate-x-1 hover:-translate-y-1 transition-transform">
             <p className="font-display font-bold text-xl md:text-2xl">
               🚀 Лучшие участники приглашаются на стажировки и получают{' '}
               <span className="text-brand-yellow decoration-4 underline-offset-4">
