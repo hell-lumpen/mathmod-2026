@@ -14,19 +14,19 @@ export const Header: React.FC = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-brand-bg border-b-4 border-black">
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between h-20">
         
-        {/* Logo */}
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-black text-white flex items-center justify-center font-display font-black text-2xl -rotate-3 border-2 border-black shadow-[2px_2px_0px_0px_rgba(255,230,0,1)]">
-            МАИ
-          </div>
-          <div className="hidden sm:block leading-none font-display">
+          <img
+            src="/images/mai-logo.png"
+            alt="Логотип МАИ"
+            className="w-12 h-12 object-contain"
+          />
+          <div className="block leading-none font-display">
             <div className="font-black text-xl uppercase tracking-tight">VI Школа ИТ</div>
             <div className="text-sm font-bold">и мат. моделирования</div>
           </div>
         </div>
 
-        {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <a 
               key={link.name} 
@@ -50,7 +50,7 @@ export const Header: React.FC = () => {
           </a>
           
           <button 
-            className="md:hidden w-12 h-12 flex items-center justify-center bg-brand-yellow border-4 border-black shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-neo-hover transition-all"
+            className="lg:hidden w-12 h-12 flex items-center justify-center bg-brand-yellow border-4 border-black shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-neo-hover transition-all"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <XIcon /> : <MenuIcon />}
@@ -58,7 +58,6 @@ export const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Mobile Nav */}
       {isMobileMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-brand-bg border-b-4 border-black border-t-4">
           <div className="flex flex-col p-6 space-y-4">

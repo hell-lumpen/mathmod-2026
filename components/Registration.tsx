@@ -13,10 +13,7 @@ export const Registration: React.FC = () => {
 
   return (
     <section id="register" className="py-16 md:py-24 border-b-4 border-black bg-brand-green relative overflow-hidden">
-      {/* Decorative large shapes */}
-      <div className="absolute top-10 -left-20 w-64 h-64 bg-brand-yellow border-4 border-black rounded-full mix-blend-multiply blur-sm opacity-50"></div>
-      <div className="absolute bottom-10 -right-20 w-80 h-80 bg-brand-pink border-4 border-black rounded-full mix-blend-multiply blur-sm opacity-50"></div>
-
+    
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-6xl mx-auto bg-white border-4 border-black shadow-neo-xl flex flex-col lg:flex-row">
           
