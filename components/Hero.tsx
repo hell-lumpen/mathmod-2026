@@ -56,7 +56,8 @@ export const Hero: React.FC = () => {
               </div>
               <div className="flex items-center justify-center gap-3 bg-brand-yellow border-4 border-black px-6 py-3 shadow-neo hover:-translate-y-1 transition-transform w-full sm:w-auto">
                 <MapPinIcon className="w-6 h-6 shrink-0" />
-                <span>ОУЦ «Ярополец», Московская область</span>
+                <span className="hidden sm:inline">ОУЦ «Ярополец», Московская область</span>
+                <span className="inline sm:hidden">Московская область</span>
               </div>
             </div>
           </div>
