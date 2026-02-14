@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from './Icons';
+import maiLogo from '../images/mai-logo.png';
 
 export const Header: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ export const Header: React.FC = () => {
         
         <div className="flex items-center gap-3">
           <img
-            src="/images/mai-logo.png"
+            src={maiLogo}
             alt="Логотип МАИ"
             className="w-12 h-12 object-contain"
           />

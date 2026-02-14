@@ -1,4 +1,7 @@
 import React from 'react';
+import itcLogo from '../images/itc-logo.png';
+import Logo8 from '../images/8inst-logo.png';
+
 
 export const Partners: React.FC = () => {
   const currentPartners = [
@@ -97,7 +100,7 @@ export const Partners: React.FC = () => {
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 md:gap-12 max-w-6xl">
             <div className="flex items-center gap-4 shrink-0">
               <img
-                src="https://mathmod-2026.vercel.app/images/8inst-logo.png"
+                src={Logo8}
                 alt="Логотип Институт №8"
                 className="w-[100px] h-[100px] object-contain"
               />
@@ -109,7 +112,7 @@ export const Partners: React.FC = () => {
 
             <div className="flex items-center gap-4 shrink-0">
               <img
-                src="https://mathmod-2026.vercel.app/images/ITC-logo.png"
+                src={itcLogo}
                 alt="Логотип ИТ-центра МАИ"
                 className="w-[120px] h-[120px] object-contain"
               />
