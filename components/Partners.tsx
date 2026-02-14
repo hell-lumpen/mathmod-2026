@@ -2,11 +2,11 @@ import React from 'react';
 
 export const Partners: React.FC = () => {
   const currentPartners = [
-    { name: 'ЯНДЕКС', logo: '/images/partners/yandex.svg', color: 'from-[#FC3F1D] to-[#FFD500]' },
-    { name: 'VK', logo: '/images/partners/vk.svg', color: 'from-[#0077FF] to-[#0057B3]' },
-    { name: 'СБЕР', logo: '/images/partners/sber.svg', color: 'from-[#2DB72B] to-[#1E7B1C]' },
-    { name: 'Т1 ХОЛДИНГ', logo: '/images/partners/t1.svg', color: 'from-[#8A2BE2] to-[#4B0082]' },
-    { name: 'ПСБ', logo: '/images/partners/psb.svg', color: 'from-[#FDB913] to-[#DAA520]' },
+    { name: 'ЯНДЕКС', logo: 'https://mathmod-2026.vercel.app/images/partners/yandex.svg', color: 'from-[#FC3F1D] to-[#FFD500]' },
+    { name: 'VK', logo: 'https://mathmod-2026.vercel.app/images/partners/vk.svg', color: 'from-[#0077FF] to-[#0057B3]' },
+    { name: 'СБЕР', logo: 'https://mathmod-2026.vercel.app/images/partners/sber.svg', color: 'from-[#2DB72B] to-[#1E7B1C]' },
+    { name: 'Т1 ХОЛДИНГ', logo: 'https://mathmod-2026.vercel.app/images/partners/t1.svg', color: 'from-[#8A2BE2] to-[#4B0082]' },
+    { name: 'ПСБ', logo: 'https://mathmod-2026.vercel.app/images/partners/psb.svg', color: 'from-[#FDB913] to-[#DAA520]' },
   ];
 
   const pastPartners = [
@@ -97,7 +97,7 @@ export const Partners: React.FC = () => {
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 md:gap-12 max-w-6xl">
             <div className="flex items-center gap-4 shrink-0">
               <img
-                src="/images/8inst-logo.png"
+                src="https://mathmod-2026.vercel.app/images/8inst-logo.png"
                 alt="Логотип Институт №8"
                 className="w-[100px] h-[100px] object-contain"
               />
@@ -109,7 +109,7 @@ export const Partners: React.FC = () => {
 
             <div className="flex items-center gap-4 shrink-0">
               <img
-                src="/images/ITC-logo.png"
+                src="https://mathmod-2026.vercel.app/images/ITC-logo.png"
                 alt="Логотип ИТ-центра МАИ"
                 className="w-[120px] h-[120px] object-contain"
               />

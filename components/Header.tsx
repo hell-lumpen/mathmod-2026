@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
         
         <div className="flex items-center gap-3">
           <img
-            src="/images/mai-logo.png"
+            src="https://mathmod-2026.vercel.app/images/mai-logo.png"
             alt="Логотип МАИ"
             className="w-12 h-12 object-contain"
           />
