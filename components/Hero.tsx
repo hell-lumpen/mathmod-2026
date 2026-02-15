@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 font-display font-bold text-base sm:text-lg md:text-xl w-full sm:w-auto">
               <div className="flex items-center justify-center gap-3 bg-brand-green border-4 border-black px-6 py-3 shadow-neo hover:-translate-y-1 transition-transform w-full sm:w-auto">
                 <CalendarIcon className="w-6 h-6 shrink-0" />
-                <span>13 мая - 22 мая 2026</span>
+                <span>13 - 22 мая 2026</span>
               </div>
               <div className="flex items-center justify-center gap-3 bg-brand-yellow border-4 border-black px-6 py-3 shadow-neo hover:-translate-y-1 transition-transform w-full sm:w-auto">
                 <MapPinIcon className="w-6 h-6 shrink-0" />
@@ -68,6 +68,14 @@ export const Hero: React.FC = () => {
 
       <div className="absolute bottom-0 left-0 right-0 bg-brand-yellow border-y-4 border-black overflow-hidden py-2 md:py-3 flex z-20">
         <div className="marquee-container animate-marquee whitespace-nowrap flex font-display font-black text-lg md:text-3xl uppercase tracking-widest">
+          <span className="mx-4">ХАКАТОН МАИ 2026</span><span className="mx-4">•</span>
+          <span className="mx-4">РЕАЛЬНЫЕ ЗАДАЧИ</span><span className="mx-4">•</span>
+          <span className="mx-4">ИНДУСТРИАЛЬНЫЕ ПАРТНЕРЫ</span><span className="mx-4">•</span>
+          <span className="mx-4">ВЫЕЗДНОЙ ИНТЕНСИВ</span><span className="mx-4">•</span>
+          <span className="mx-4">ХАКАТОН МАИ 2026</span><span className="mx-4">•</span>
+          <span className="mx-4">РЕАЛЬНЫЕ ЗАДАЧИ</span><span className="mx-4">•</span>
+          <span className="mx-4">ИНДУСТРИАЛЬНЫЕ ПАРТНЕРЫ</span><span className="mx-4">•</span>
+          <span className="mx-4">ВЫЕЗДНОЙ ИНТЕНСИВ</span><span className="mx-4">•</span>
           <span className="mx-4">ХАКАТОН МАИ 2026</span><span className="mx-4">•</span>
           <span className="mx-4">РЕАЛЬНЫЕ ЗАДАЧИ</span><span className="mx-4">•</span>
           <span className="mx-4">ИНДУСТРИАЛЬНЫЕ ПАРТНЕРЫ</span><span className="mx-4">•</span>

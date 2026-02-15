@@ -7,7 +7,7 @@ export const About: React.FC = () => {
       icon: <BrainIcon className="w-8 h-8 md:w-10 md:h-10" />,
       title: "Погружение в задачи",
       description: "Машинное обучение, математическое моделирование и аналитика на реальных данных бизнеса.",
-      color: "bg-brand-white"
+      color: "bg-brand-yellow"
     },
     {
       icon: <CodeIcon className="w-8 h-8 md:w-10 md:h-10" />,

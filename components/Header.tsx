@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
           />
           <div className="block leading-none font-display">
             <div className="font-black text-xl uppercase tracking-tight">VI Школа ИТ</div>
-            <div className="text-sm font-bold">и мат. моделирования</div>
+            <div className="text-sm font-bold">и математического моделирования</div>
           </div>
         </div>
 
